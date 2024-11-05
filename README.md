@@ -20,7 +20,9 @@ To install and use this script, follow these steps:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/ubuntu-gateway-setup.git
+git clone https://github.com/TheHellishPandaa/ubuntu-gateway-setup.git
+
+bash
 
 Step 2: Make the Script Executable
 
@@ -39,7 +41,6 @@ Run the script as root (sudo):
 
 sudo ./gateway_setup.sh
 
-<hr></hr>
 
 Script Configuration
 
