@@ -26,7 +26,6 @@ Step 2: Make the Script Executable
 
 Navigate to the directory containing the script and make it executable:
 
-```bash
 
 cd ubuntu-gateway-setup
 chmod +x gateway_setup.sh
@@ -35,7 +34,6 @@ Step 3: Run the Script
 
 Run the script as root (sudo):
 
-```bash
 
 sudo ./gateway_setup.sh
 
