@@ -22,8 +22,6 @@ First, clone the repository to your local machine:
 ```bash
 git clone https://github.com/TheHellishPandaa/ubuntu-gateway-setup.git
 
-bash
-
 Step 2: Make the Script Executable
 
 Navigate to the directory containing the script and make it executable:
