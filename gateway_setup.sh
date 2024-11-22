@@ -20,9 +20,9 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-# Network Interface Variables
-WAN_INTERFACE="ens18"  # Change this to your WAN interface
-LAN_INTERFACE="ens19"  # Change this to your LAN interface
+read -p "Input your WAN Interface: " WAN_INTERFACE
+read -p "Input your LAN Interface: " LAN_INTERFACE
+
 
 # Check if the interfaces exist
 if ! ip a show $WAN_INTERFACE &>/dev/null; then
