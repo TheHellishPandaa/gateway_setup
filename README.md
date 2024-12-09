@@ -21,30 +21,24 @@ First, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/TheHellishPandaa/gateway_setup.git
+````
 
 Step 2: Make the Script Executable
 
 Navigate to the directory containing the script and make it executable:
 
-
+````bash
 cd ubuntu-gateway-setup
 chmod +x gateway_setup.sh
-
+````
 Step 3: Run the Script
 
 Run the script as root (sudo):
-
-
+```
+```bash
 sudo ./gateway_setup.sh
+````
 
+Released under GNU General Public license
 
-Script Configuration
-
-By default, the script assumes the following interface names:
-
-    WAN Interface: ens18 (Change this if your WAN interface is different)
-    LAN Interface: ens19 (Change this if your LAN interface is different)
-
-You can modify these variables directly in the script or update them to match your specific network configuration.
-
-Tjis is not a final Version
+2025 Jaime Galvez Martinez
