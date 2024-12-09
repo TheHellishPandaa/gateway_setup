@@ -24,17 +24,6 @@ read -p "Input your WAN Interface: " WAN_INTERFACE
 read -p "Input your LAN Interface: " LAN_INTERFACE
 
 
-# Check if the interfaces exist
-if ! ip a show $WAN_INTERFACE &>/dev/null; then
-  echo "Error: WAN interface ($WAN_INTERFACE) does not exist."
-  exit 1
-fi
-
-if ! ip a show $LAN_INTERFACE &>/dev/null; then
-  echo "Error: LAN interface ($LAN_INTERFACE) does not exist."
-  exit 1
-fi
-
 # Update system
 echo "Updating the system..."
 apt update && apt upgrade -y
