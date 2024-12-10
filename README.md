@@ -35,7 +35,7 @@ Step 3: Run the Script
 
 Run the script as root (sudo):
 ```
-```bash
+``
 sudo ./gateway_setup.sh
 ````
 
